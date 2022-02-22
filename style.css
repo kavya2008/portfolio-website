@@ -1,0 +1,505 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Dosis', sans-serif;
+ color: black;
+ line-height: 2.5rem;
+}
+
+.head{
+    color: white;
+    background-color: #170420;
+    width: 100%;
+    height:100vh;
+   
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.navbars {
+    display: flex;
+      flex-direction: row;
+    overflow: hidden;
+    background-color: #170420;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: flex-end;
+    z-index: 20;
+   
+  }
+  
+  .navbars a {
+    margin-right:  40px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbars a:hover {
+    color: #ea1646;
+    text-decoration: none;
+  }
+  
+
+#content{
+    position: absolute;
+  top: 34%;
+  left: 40%;
+   line-height: 3rem;
+}
+.typed-out{
+    overflow: hidden;
+    border-right: .15em solid #ea1646;
+    white-space: nowrap;
+    animation: 
+      typing 2s forwards infinite ;
+      animation-duration: 4s;
+    font-size: 1.9rem;
+    width: 0;
+    color: #ea1646;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  .contain{
+      display: inline-block;
+  }
+  img{
+      margin: 70px -15px;
+  }
+  .para{
+      text-align: center;
+  }
+  #a{
+      margin-top: 70px;
+  }
+  #a .section-title{
+    color: #ea1646;
+      text-align: center;
+      text-transform: uppercase;
+      padding-top: 80px;
+  }
+  #b .section-title{
+    color: #ea1646;
+      text-align: center;
+      text-transform: uppercase;
+      
+  }
+  .lead{
+      text-align: center;
+      color: #ea1646;
+  }
+  
+  .project .box{
+      padding-top: 10px;
+  }
+  .project .box p{
+      padding-top: 10px;
+  }
+  .process{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      grid-gap: 1rem;
+      text-align: center;
+      margin: 20px 65px;
+      color: white;
+  }
+  
+  .di{
+    
+      border: 1px solid #ea1646;
+      
+  }
+  .rows{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      grid-gap: 20px;
+  }
+  .process i{
+      margin-top: 10px;
+  }
+  .our-team-main
+  {
+      margin-top: 40px;
+      width:100%;
+      height:auto;
+      box-shadow: 6px 6px 4px 4px #c7c6c6;
+      background:#fff;
+      text-align:center;
+      border-radius:10px;
+      overflow:hidden;
+      position:relative;
+      transition:0.5s;
+      margin-bottom:28px;
+  }
+  .project{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 25px;
+  }
+  .project .box{
+    box-shadow: 6px 6px 4px 4px #c7c6c6;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .project .box a{
+      text-decoration: none;
+      font-weight: bold;
+      color: black;
+      
+  }
+  .project .box a:hover{
+    font-weight: bold;
+    color: #c71342;
+    
+}
+  .footcontent{
+      margin-top: 20px;
+      background-color: #170420;
+      color: white;
+      text-align: center;
+      padding: 10px;
+  }
+  #foot{
+      padding-top: 40px;
+  }
+  .our-team-main h2
+  {
+      font-size:20px;
+      font-weight:700;
+  }
+  i{
+      margin: 10px;
+  }
+  .our-team-main p
+  {
+      margin-bottom:0;
+  }
+  
+  .team-back
+  {
+      width:100%;
+      height:auto;
+      position:absolute;
+      top: 0;
+      padding:5px 15px 0 15px;
+      
+      font-size: 18px;
+      line-height: 2.5rem;
+      background:#fff;
+      
+  }
+  
+  .team-front
+  {
+      width:100%;
+      height:auto;
+      position:relative;
+      z-index:10;
+      background:#fff;
+      padding:15px;
+      bottom:0px;
+      transition: all 0.5s ease;
+  }
+  
+  .our-team-main:hover .team-front
+  {
+      bottom:-180px;
+  
+  }
+  #b{
+      margin-top: 40px;
+  }
+  #a{
+      margin-top: -8px;
+  }
+  .our-team-main:hover
+  {
+      border-color:#777;
+      
+  }
+  .footcontent a{
+      color: white;
+  }
+  .footcontent a:hover{
+    color: #c71342;
+}
+.item{
+    background-color: #170420;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: #ea1646;
+    padding-top: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+}
+.carousel{
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    position: relative;
+   
+}
+#c .section-title{
+   color: #ea1646;
+      text-align: center;
+      text-transform: uppercase;
+      
+  }
+  #c{
+      margin-top: 40px;
+  }
+.hidden{
+    display: none;
+}
+.visible{
+    display: block;
+}
+.action{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.action i{
+    color: #ea1646;
+    font-size: 30px;
+}
+@media screen and (max-width: 290px){
+    .navbars{
+        padding-top: 30px;
+        position: fixed;
+        z-index: 20;
+       justify-content: space-evenly;
+    }
+    .navbars a{
+        margin: 0px;
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+    .rows{
+        display: block;
+        margin: 10px;
+        
+    }
+    .item h1{
+        font-size: 12px;
+    }
+    .team-back{
+        font-size: 15px;
+    }
+    #content h1{
+        font-size: 16px;
+        
+    }
+    #content{
+        position: absolute;
+        left: 20%;
+        
+    }
+    .typed-out{
+        font-size: 10px;
+    }
+    .leade{
+        margin-top: -20px;
+        font-size: 10px;
+    }
+    .project{
+        display: block;
+        margin: 10px;
+      }
+      .box{
+          margin-bottom: 50px;
+          font-size: 14px;
+          padding: 5px;
+      }
+      .para{
+          padding: 10px;
+      }
+      .footcontent{
+          font-size: 8px;
+      }
+      #c{
+          margin-top: 50px;
+      }
+      #c .section-title{
+          padding-top: 80px;
+      }
+}
+
+@media screen and (min-width:291px) and (max-width: 480px){
+    #c .section-title{
+        padding-top: 80px;
+    }
+    .navbars{
+        padding-top: 30px;
+        position: fixed;
+        z-index: 20;
+       justify-content: space-evenly;
+    }
+    .navbars a{
+        margin: 0px;
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+    .item h1{
+        font-size: 12px;
+    }
+    .rows{
+        display: block;
+        margin: 10px;
+    }
+    #content h1{
+        font-size: 16px;
+        
+    }
+    #content{
+        position: absolute;
+        left: 20%;
+        
+    }
+    .typed-out{
+        font-size: 10px;
+    }
+    .leade{
+        margin-top: -20px;
+        font-size: 10px;
+    }
+    .project{
+        display: block;
+        margin: 20px;
+      }
+      .box{
+          margin-bottom: 50px;
+          font-size: 14px;
+          padding: 5px;
+      }
+      .para{
+          padding: 10px;
+      }
+}
+@media screen and (min-width: 481px) and (max-width: 767px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #c .section-title{
+        padding-top: 70px;
+    }
+    .navbars{
+        padding-top: 30px;
+        position: fixed;
+        z-index: 20;
+       justify-content: space-evenly;
+    }
+    .navbars a{
+        margin: 0px;
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+    .rows{
+        display: block;
+        margin: 10px;
+    }
+    #content h1{
+        font-size: 25px;
+        
+    }
+    #content{
+        position: absolute;
+        left: 20%;
+        
+    }
+    .typed-out{
+        font-size: 20px;
+    }
+    .leade{
+        margin-top: -20px;
+        font-size: 15px;
+    }
+    .project{
+        display: block;
+        margin: 20px;
+      }
+      .box{
+          margin-bottom: 50px;
+          font-size: 14px;
+          padding: 5px;
+      }
+      .para{
+          padding: 10px;
+      }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px){
+
+    .navbars{
+        padding-top: 20px;
+        position: fixed;
+        z-index: 20;
+        justify-content: center;
+    }
+    .navbars a{
+        padding-bottom: 10px;
+    }
+    #content h1{
+        font-size: 25px;
+    }
+    .our-team-main:hover .team-front
+  {
+      bottom:-220px;
+  
+  }
+  .team-back{
+      font-size: 16px;
+      line-height: 1.9rem;
+  }
+    #content{
+        position: absolute;
+        left: 20%;
+        
+    }
+      .para{
+          padding: 10px;
+      }
+}
+
+@media screen and (min-width: 1025px) and (max-width:1200px){
+    .navbars{
+        padding-top: 30px;
+        position: fixed;
+        z-index: 20;
+        justify-content: flex-end;
+    }
+      
+      .para{
+          padding: 10px;
+      }
+      .project{
+          padding: 0px;
+          margin:0px;
+          grid-gap: 5px;
+          font-size: 12px;
+      }
+      .box{
+          margin: 10px;
+      }
+      .team-front{
+          font-size: 12px;
+      }
+}
